@@ -263,7 +263,7 @@ button {
 }
 
 .header__list li:last-child {
-  margin-left: 150px;
+  margin-left: 40px;
 }
 
 .header__link {
@@ -283,42 +283,6 @@ button {
 
 .header__burger {
   display: none;
-}
-
-@media (max-width: 1120px) {
-  .header__list li:last-child {
-    margin-left: 140px;
-  }
-}
-
-@media (max-width: 1070px) {
-  .header__list li:last-child {
-    margin-left: 120px;
-  }
-}
-
-@media (max-width: 1040px) {
-  .header__list li:last-child {
-    margin-left: 100px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .header__list li:last-child {
-    margin-left: 80px;
-  }
-}
-
-@media (max-width: 960px) {
-  .header__list li:last-child {
-    margin-left: 50px;
-  }
-}
-
-@media (max-width: 910px) {
-  .header__list li:last-child {
-    margin-left: 20px;
-  }
 }
 
 .logo-img {
@@ -424,6 +388,7 @@ button {
   margin-right: 10px;
   -webkit-transition: all .5s;
   transition: all .5s;
+  font-size: 0.8rem;
 }
 
 .header-btn-group .signUp:hover {
@@ -441,6 +406,7 @@ button {
   text-align: center;
   -webkit-transition: all .5s;
   transition: all .5s;
+  font-size: 0.8rem;
 }
 
 .header-btn-group .signIn:hover {
